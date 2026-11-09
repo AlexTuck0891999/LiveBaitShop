@@ -12,3 +12,14 @@ https://www.ozarktechdev.com/alex/baitshop/
 
 ### Screenshot of homepage:
 ![Screenshot of Live Bait Shop](screenshot.png)
+
+
+### Source of Media:
+video:
+https://pixabay.com/videos/fishing-fish-fisherman-water-44533/
+
+fishing photo:
+https://unsplash.com/photos/a-man-standing-in-a-body-of-water-holding-a-fishing-pole-XLqQLrkuBkI
+
+lake photo:
+https://unsplash.com/photos/lake-reflecting-mountains-and-pine-trees-tKtDcwWI-sY
