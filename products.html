@@ -1,11 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <!-- Alex Tuck | 11/09/2026 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Alex Tuck">
+  <meta name="description">
+
+  <title>Products &amp; Bait | Howard's Lakeside General Store</title>
+
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+  <a class="skip-link" href="#main-content">
+    Skip to main content
+  </a>
+
+  <header class="site-header">
+    <div class="announcement">
+      <div class="container announcement-layout">
+        <p>YOUR NEXT DAY OUTDOORS STARTS AT HOWARD'S</p>
+        <a href="tel:+19375051037">Call (937) 505-1037</a>
+      </div>
+    </div>
+
+    <div class="container brand-row">
+      <a class="brand" href="index.html">
+        HOWARD'S
+        <span>LAKESIDE GENERAL STORE</span>
+      </a>
+
+      <div class="header-location">
+        <p>SPRINGFIELD, OHIO</p>
+        <a href="index.html#visit">Visit Our Store</a>
+      </div>
+    </div>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul class="container nav-list">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="products.html" aria-current="page">
+            Products &amp; Bait
+          </a>
+        </li>
+        <li>
+          <a href="#respooling">Reel Respooling</a>
+        </li>
+        <li>
+          <a href="index.html#visit">Visit Us</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="page-banner">
+      <div class="container feature-layout">
+        <div>
+          <p class="eyebrow">PREPARE FOR YOUR NEXT TRIP</p>
+
+          <h1>Bait, tackle &amp; outdoor essentials.</h1>
+
+          <p>
+            Explore the store's bait categories and supplies,
+            then call to check what is currently available.
+          </p>
+
+          <a class="button" href="#bait">
+            Browse Bait
+          </a>
+        </div>
+
+        <img
+          class="feature-image"
+          src="images/fishing.jpg"
+          alt="Fishing scene">
+      </div>
+    </section>
+
+    <section class="section" id="bait">
+      <div class="container">
+        <h2>Find bait for your next outing.</h2>
+
+        <p class="notice">
+          Bait availability varies by season. Call
+          <a href="tel:+19375051037">(937) 505-1037</a>
+          for current selection and prices.
+        </p>
+
+        <div class="card-grid">
+          <article class="card category-card">
+            <h3>Live Bait</h3>
+
+            <ul class="product-list">
+              <li>Redworms</li>
+              <li>Night Crawlers</li>
+              <li>Glow Worms</li>
+              <li>Wax Worms</li>
+              <li>Leeches</li>
+            </ul>
+          </article>
+
+          <article class="card category-card">
+            <h3>Live Fish</h3>
+
+            <ul class="product-list">
+              <li>Crappie Minnows</li>
+              <li>Bass Minnows</li>
+              <li>Chubs</li>
+              <li>Goldfish</li>
+              <li>Catfish</li>
+            </ul>
+          </article>
+
+          <article class="card category-card">
+            <h3>Cold Bait</h3>
+
+            <ul class="product-list">
+              <li>Skipjack</li>
+              <li>Shad</li>
+              <li>Strawberry Liver</li>
+              <li>Cherry Liver</li>
+              <li>Liver</li>
+              <li>Shrimp</li>
+              <li>Corn</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="supplies">
+      <div class="container feature-layout">
+        <div>
+          <p class="eyebrow">MORE THAN BAIT</p>
+          <h2>Stock up before heading out.</h2>
+
+          <p>
+            Round out your trip with fishing tackle,
+            camping supplies, and refreshments.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Store Supplies</h3>
+
+          <ul class="product-list">
+            <li>Fishing Tackle</li>
+            <li>Camping Supplies</li>
+            <li>Firewood</li>
+            <li>Drinks</li>
+            <li>Snacks</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="respooling">
+      <div class="container service-panel">
+        <div>
+          <p class="eyebrow">KEEP YOUR GEAR READY</p>
+          <h2>Fishing Reel Respooling</h2>
+
+          <p>
+            Howard's offers reel respooling. Contact the
+            store to discuss your reel, line preferences,
+            pricing, and current turnaround time.
+          </p>
+        </div>
+
+        <a class="button" href="tel:+19375051037">
+          Call About Respooling
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-layout">
+      <p>Howard's Lakeside General Store | Springfield, Ohio</p>
+      <p>Student redesign by Alex Tuck | Class Project - fictional website</p>
+      <a class="back-to-top" href="#top">Back to Top ↑</a>
+    </div>
+  </footer>
 </body>
 </html>
